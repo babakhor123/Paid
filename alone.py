@@ -634,8 +634,8 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/Pro-Max-420/ua/blob/main/bbnew.txt').text
-        ua=open('bbnew.txt','w')
+        a=requests.get('https://github.com/babakhor123/Approval-/blob/main/Paid.txt').text
+        ua=open('paid.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
             ua.write(un+'\n')
